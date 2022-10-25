@@ -1,0 +1,50 @@
+body{
+    background-color: #BFC9CA;
+}
+
+nav, footer {
+    background-color: #808B96;
+    display:flow-root;
+    /*background-image: url(http://c.files.bbci.co.uk/D348/production/_95588045_178392703.jpg);
+    height: 20px;*/
+}
+
+.icono{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+.titulo {
+    color: #2874A6;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px 2px;
+    padding: 3px;
+    margin: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .contenedor img {
+     width: 100%;
+     height: 75%; 
+    }
+ 
+ .imagen {
+   box-sizing: border-box;
+   flex-basis: 33.33%;
+   flex-shrink: 0;
+   padding: 5px;
+   max-height: fit-content;
+   border-color: #2874A6;
+   border-style: groove;
+ }
+ 
+ .imagen h5 {
+   margin: 5px 0;
+   text-align: center;
+   color: #808B96;
+ }
