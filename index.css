@@ -1,23 +1,36 @@
 body{
     background-color: #BFC9CA;
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-41937cd49481660da7bd64c4e0ffca0c-c");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 nav, footer {
-    background-color: #808B96;
     display:flow-root;
-    /*background-image: url(http://c.files.bbci.co.uk/D348/production/_95588045_178392703.jpg);
-    height: 20px;*/
 }
 
 .icono{
     width: 50px;
     height: 50px;
     float: right;
+    padding: 5px;
 }
 .titulo {
-    color: #2874A6;
+    color: #03456d;
     text-align: center;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px;
+    padding: 3px;
+    margin: 20px;
+}
+.titulo2 {
+    color: #03456d;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
     text-shadow: 1px 1px 2px;
     padding: 3px;
     margin: 20px;
@@ -45,6 +58,16 @@ nav, footer {
  
  .imagen h5 {
    margin: 5px 0;
+   font-size: 30px;
    text-align: center;
-   color: #808B96;
+   color: white;
+   font-family: 'Permanent Marker', cursive;
+ }
+ nav h6{
+    text-align: left;
+ }
+ h6{
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
  }
